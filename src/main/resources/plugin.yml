@@ -1,0 +1,5 @@
+name: ParticleLib
+version: 1.8.5
+authors: [ByteZ, AMGewka, Kronus]
+main: xyz.xenondevs.particle.ParticleLib
+api-version: "1.21"

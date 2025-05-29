@@ -6,12 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>xyz.xenondevs</groupId>
     <artifactId>particle</artifactId>
-    <version>1.8.4</version>
+    <version>1.8.5</version>
     <packaging>jar</packaging>
 
     <name>ParticleLib</name>
     <description>Spigot library for particles</description>
-    <url>https://github.com/ByteZ1337/ParticleLib</url>
+    <url>https://github.com/AMGewka/ParticleLib</url>
 
     <licenses>
         <license>
@@ -22,17 +22,17 @@
 
     <developers>
         <developer>
-            <name>ByteZ1337</name>
-            <email>0xbytez@gmail.com</email>
+            <name>AMGewka</name>
+            <email>devid.gabibov@gmail.com</email>
             <organization>xyz.xenondevs</organization>
-            <organizationUrl>https://github.com/ByteZ1337/ParticleLib</organizationUrl>
+            <organizationUrl>https://github.com/AMGewka/ParticleLib</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/ByteZ1337/ParticleLib.git</connection>
-        <developerConnection>scm:git:ssh://github.com:ByteZ1337/ParticleLib.git</developerConnection>
-        <url>https://github.com/ByteZ1337/ParticleLib/tree/master</url>
+        <connection>scm:git:git://github.com/AMGewka/ParticleLib.git</connection>
+        <developerConnection>scm:git:ssh://github.com:AMGewka/ParticleLib.git</developerConnection>
+        <url>https://github.com/AMGewka/ParticleLib/tree/master</url>
     </scm>
 
     <distributionManagement>
@@ -113,17 +113,17 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.19.4-R0.1-SNAPSHOT</version>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
+            <version>1.21.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
 
     <repositories>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <id>papermc</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
     </repositories>
 
